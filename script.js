@@ -59,7 +59,7 @@ function game() {
     let playerScore = 0;
     let computerScore = 0;
     let winner = 0;
-    for (let i = 0; i < 5; i++) {
+    while (playerScore < 5 && computerScore < 5) {
         winner = playRound(playerSelection(), computerSelection());
         switch (winner) {
             case 1:
