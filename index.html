@@ -3,21 +3,26 @@
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="stylesheet" href="./css/styles.css">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Rock Paper Scissors</title>
 </head>
 <body>
-
-    <h1>Rock Paper Scissors</h1>
-    <div id="heading">
-        <button id="rock">Rock</button>
-        <button id="paper">Paper</button>
-        <button id="scissors">Scissors</button>
+    <header id="header">
+        <div class="container">
+            <h1>Rock Paper Scissors</h1>
+            <div class="options">
+                <img id="rock" class="button" src="./img/rock.png" alt="Image of rock">
+                <img id="paper" class="button" src="./img/paper.png" alt="Image of paper">
+                <img id="scissors" class="button" src="./img/scissors.png" alt="Image of scissors">
+            </div>
+        </div>
+    </header>
+    <div class="container">
+        <div id="result-container">
+            <p id="result">Select your move!</p>
+        </div>
     </div>
-    <div id="result-container">
-        <p id="result">Select your move!</p>
-    </div>
-
     <h2 id = "scores-heading">Scores</h2>
     <div id = "score-section">
         <h3 id="your-score">You: </h2>
