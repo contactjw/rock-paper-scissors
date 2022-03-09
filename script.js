@@ -52,7 +52,7 @@ restart.addEventListener('click', () => {
 function playRound(playerSelection, computerSelection) {
     if (gameOver == false) {
         if (playerSelection === computerSelection) {
-            result.textContent = "Tie you both chose " + playerSelection;
+            result.textContent = "Tie! You both chose " + playerSelection;
         }
         else if (playerSelection === "Rock" && computerSelection === "Scissors") {
             result.textContent = "You Win! Rock beats Scissors";

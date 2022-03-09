@@ -5,7 +5,7 @@
 }
 
 .container {
-    max-width: 750px;
+    max-width: 650px;
 }
 
 h1 {
@@ -34,5 +34,55 @@ h1 {
     margin: 10px;
 }
 
+.result-body {
+    display: flex;
+    justify-content: center;
+}
 
+.result-body .container {
+    margin: 0 10px;
+}
 
+#result-container {
+    display: flex;
+    justify-content: center;
+    max-width: 100%;
+}
+
+#result {
+    text-align: center;
+}
+
+#result-container p {
+    font-size: 25px;
+    font-weight: 500;
+}
+
+.score-body {
+    display: flex;
+    justify-content: center;
+}
+
+h2 {
+    font-size: 35px;
+    margin: 20px auto 5px auto;
+}
+
+h3 {
+    font-size: 25px;
+    margin: 10px;
+}
+
+.button-container {
+    display: flex;
+    justify-content: center;
+}
+
+#restart {
+    margin-top:15px;
+    width:100px;
+    height: 50px;
+    font-size: 15px;
+    background-color:darkred;
+    color: white;
+}
