@@ -86,3 +86,12 @@ h3 {
     background-color:darkred;
     color: white;
 }
+
+img:active {
+    border-color: red;
+    margin-top: 5px;
+    border-bottom-width: 1px;
+    /* border-color: red;
+    margin-top: 1px;
+    margin-bottom: 1px; */
+}
